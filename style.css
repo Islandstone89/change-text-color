@@ -8,6 +8,7 @@ body {
 
 main {
     max-width: 50rem;
+    padding: 2.5rem;
 }
 
 h1 {
@@ -22,6 +23,12 @@ h1 {
     gap: 1rem;
     justify-content: space-between;
     margin: 2.5rem 0;
+}
+
+@media (max-width: 40rem) {
+    .btn-wrapper {
+        flex-direction: column;
+    }
 }
 
 button {
